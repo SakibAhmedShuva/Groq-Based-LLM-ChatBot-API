@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Ensure responsive design -->
+  <title>ChatGPT-like Chatbot</title>
+  <link rel="stylesheet" href="styles.css">
+  <!-- Include Font Awesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+  <div class="chat-container">
+    <aside class="sidebar">
+      <div class="sidebar-header">
+        <h2>Chats</h2>
+        <button id="new-chat">+ New Chat</button>
+        <button id="delete-chat" title="Delete Entire Chat" style="margin-left: 10px;">Delete Chat</button>
+      </div>
+      <ul id="session-list"></ul>
+    </aside>
+    <main class="chat-main">
+      <div id="chat-header">
+        <h3 id="chat-title">Chat</h3>
+        <div class="chat-header-buttons">
+          <button id="rename-chat" title="Rename Chat"><i class="fas fa-edit"></i></button>
+          <button id="clear-chat" title="Clear Chat"><i class="fas fa-trash-alt"></i></button>
+        </div>
+      </div>
+      <div id="chat-window"></div>
+      <div class="input-container">
+        <textarea id="message-input" placeholder="Type your message here..." autofocus></textarea>
+        <button id="send-message">Send</button>
+      </div>
+    </main>
+  </div>
+
+  <!-- Rename Chat Modal -->
+  <div id="rename-modal" class="modal">
+    <div class="modal-content">
+      <span class="close-button">&times;</span>
+      <h2>Rename Chat</h2>
+      <input type="text" id="new-chat-name" placeholder="Enter new chat name">
+      <button id="save-chat-name">Save</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
