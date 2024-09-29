@@ -1,6 +1,6 @@
-# Groq-Based-LLM-ChatBot-API
+# Groq-Based-LLM-ChatBot-App
 
-Free LLM ChatBot API Powered by Groq API with a ChatGPT-like HTML Template
+Free LLM ChatBot App Powered by Groq API with a ChatGPT-like HTML frontend.
 
 ## Description
 
@@ -21,8 +21,8 @@ This project provides a robust, scalable ChatBot API powered by Groq's Large Lan
 
 1. Clone the repository:
    ```
-   git clone https://github.com/SakibAhmedShuva/Groq-Based-LLM-ChatBot-API.git
-   cd Groq-Based-LLM-ChatBot-API
+   git clone https://github.com/SakibAhmedShuva/Groq-Based-LLM-ChatBot-App.git
+   cd Groq-Based-LLM-ChatBot-App
    ```
 
 2. Install the required Python packages:
